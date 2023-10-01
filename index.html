@@ -290,8 +290,8 @@
 			}
 
             var quickDASHscore = totalScore;
-            document.getElementById("result").innerHTML = "非常感謝您完成了這份調查中所有的問題<br><br>請勿關閉此頁面，並將以下資料展示給物理治療師。<br> Your Total Score is: " + quickDASHscore ;
-            var popup = showPopup("非常感謝您完成了這份調查中所有的問題<br><br>請勿關閉此頁面，並將以下資料展示給物理治療師。<br> Your Total Score is: " + quickDASHscore);
+            document.getElementById("result").innerHTML = "非常感謝您完成了這份調查中所有的問題<br><br>請勿關閉此頁面，並將你的分數寫在卡上，然後交給物理治療師。<br><br> 你的分數是: " + quickDASHscore + "/24";
+            var popup = showPopup("非常感謝您完成了這份調查中所有的問題<br><br>請勿關閉此頁面，並將你的分數寫在卡上，然後交給物理治療師。<br><br> 你的分數是: " + quickDASHscore + "/24");
 
             var okButton = popup.querySelector(".popup-button");
 			okButton.addEventListener("click", function() {
